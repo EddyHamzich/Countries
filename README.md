@@ -1,5 +1,11 @@
 # Countries.
 
+## How to run
+
+`npm install`
+
+`npm run dev`
+
 ## How did I decide on the technical and architectural choices?
 
 I wanted to keep this project small and simple but still cover the fundamental features of Next.js (SSG, SSR, pages, dynamic routes), GraphQL and React.
