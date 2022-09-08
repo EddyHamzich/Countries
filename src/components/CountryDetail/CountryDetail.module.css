@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem;
+  background: #1c1e36;
+  padding: 2rem;
+  height: 50vh;
+  min-width: 40vw;
+  margin: 1rem;
+}
+
+.container summary {
+  text-align: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.item img {
+  background: #3b4072;
+  padding: 0.5rem !important;
+  border-radius: 50%;
+}
+
+.item p {
+  margin: 1rem;
+}
+
+.container a {
+  position: absolute;
+  bottom: 8vh;
+  background: #1c1e36;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}

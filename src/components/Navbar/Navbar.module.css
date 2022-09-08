@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 8vh;
+  width: 100%;
+  background: #141526;
+  border-bottom: 2px solid #252747;
+}
+
+.nav a {
+  font-size: 1.5rem;
+}
