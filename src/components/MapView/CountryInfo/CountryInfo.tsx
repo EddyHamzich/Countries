@@ -14,7 +14,7 @@ export default function CountryInfo(props: IProps): JSX.Element {
         ?
           <>
             <h3>{props.country.name}</h3>
-            <Image src={`/flags/${props.country.code?.toLowerCase()}.svg`} width="100" height="100" />
+            <Image src={`/flags/${props.country.code?.toLowerCase()}.svg`} width="100" height="100" priority={true} />
             <Link href={{
               pathname: `/country/${props.country.code}`,
             }}>

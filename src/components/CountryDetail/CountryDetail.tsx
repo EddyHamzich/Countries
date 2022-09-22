@@ -20,12 +20,13 @@ export default function CountryDetail({ country }: IProps): JSX.Element {
           src={`/flags/${country.code?.toLowerCase()}.svg`}
           width="200px"
           height="200px"
+          priority={true}
         />
       </summary>
       <ul className={styles.details}>
         {Object.keys(country).slice(2).map(key => (
           <li className={styles.item} key={key}>
-            <Image src={`/icons/${key}.svg`} width="25px" height="25px" />
+            <Image src={`/icons/${key}.svg`} width="25px" height="25px" priority={true} />
             <p>{titleCase(key)}: {country[(""+key) as keyof ICountry]}</p>
           </li>
         ))}
