@@ -9,6 +9,7 @@ import { titleCase } from "../../util"
 import CountryInfo from "./CountryInfo/CountryInfo"
 import CountryList from "./CountryList/CountryList"
 import SearchBar from "./SearchBar/SearchBar"
+import FlagsPreload from "./FlagsPreload/FlagsPreload"
 
 export default function MapView({ countries }: ICountries): JSX.Element {
 
@@ -57,6 +58,8 @@ export default function MapView({ countries }: ICountries): JSX.Element {
           </Geographies>
         </ZoomableGroup>
       </ComposableMap>
+
+      <FlagsPreload countries={countries} />
 
     </div>
   )
